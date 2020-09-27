@@ -1,0 +1,23 @@
+h1 {
+    padding: 8px;
+    background: #335120;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 64px;
+    font-family: "Roboto Slab", serif;
+  }
+
+  #banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background: rgba(0, 0, 0, 0.2) url("images/landscape_with_waterfall.jpg");*/
+    background-image: url("images/landscape_with_waterfall.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #9DCC5F;
+  }
