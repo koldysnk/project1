@@ -5,19 +5,40 @@ h1 {
     margin: 0;
     font-size: 64px;
     font-family: "Roboto Slab", serif;
-  }
+}
 
-  #banner {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /*background: rgba(0, 0, 0, 0.2) url("images/landscape_with_waterfall.jpg");*/
-    background-image: url("images/landscape_with_waterfall.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-blend-mode: overlay;
-    color: #9DCC5F;
-  }
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.2) url("images/landscape_with_waterfall.jpg");
+  /*background-image: url("images/landscape_with_waterfall.jpg");*/
+  background-size: fill;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: #9DCC5F;
+}
+
+.type-header{
+  text-decoration: none;
+  color: #335120;
+}
+.type-header:hover{
+  text-decoration: underline;
+}
+.type-header > h2{
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 3px solid #335120;
+  border-right: 3px solid #335120;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 4px 32px;
+}
+.type-header > h2:hover {
+  padding: 4px 48px;
+  background: rgba(157,204,95, 0.2);
+}
