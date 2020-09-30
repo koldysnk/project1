@@ -11,7 +11,7 @@ header{
     color: #9DCC5F;
     width: 100%;
     height: 10vh;
-    position:sticky;
+    position:fixed;
     font-family: 'Roboto Condensed',sans-serif;
     font-size:1.5em;
     display: flex;
@@ -19,6 +19,7 @@ header{
     padding: 0 16px 0 0;
     box-sizing: border-box;
     z-index: 100;
+    box-shadow: 0 0 20px black;
 }
 #logo{
     height: 10vh;
@@ -47,7 +48,7 @@ header{
 }
 #nav a:hover{
     text-decoration: none;
-    color: #6EC3C1;
+    color: #0D5F8A;
 }
 .nav-item{
     display: inline;
@@ -57,49 +58,74 @@ header{
     color: #6EC3C1;
 }
 
+#mobile-nav{
+  display:none;
+}
+
 footer {
     background:  #335120;
     padding: 8px;
     color: #9DCC5F;
     display: flex;
-  }
+}
   
-  footer a {
-    color:  #9DCC5F;
-  }
-  
-  footer #left-footer {
-    flex: 1;
-    border-right: 1px solid #0D5F8A;
-    padding-left: 32px;
-  }
-  
-  footer #left-footer ul {
-    padding: 0;
-    list-style: none;
-    line-height: 1.5;
-  }
-  
-  footer #right-footer {
-    flex: 2;
-    padding: 8px;
-    text-align: center;
-  }
-  
-  
-  footer #social-media-footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  footer #social-media-footer ul li {
-    font-size: 48px;
-    padding: 16px;
-    transition: 0.4s;
-  }
+footer a {
+  color:  #9DCC5F;
+}
 
-  @media (max-width:500px){
-    
+footer #left-footer {
+  flex: 1;
+  border-right: 1px solid #0D5F8A;
+  padding-left: 32px;
+}
+
+footer #left-footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.5;
+}
+
+footer #right-footer {
+  flex: 2;
+  padding: 8px;
+  text-align: center;
+}
+
+
+footer #social-media-footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+footer #social-media-footer ul li {
+  font-size: 48px;
+  padding: 16px;
+  transition: 0.4s;
+}
+@media (max-width:600px){
+  
+  #nav{
+    background-color: #335120;
+    display:none;
+    position: absolute;
+    top: 100%;
+    right:0;
+    height: auto;
+    padding: 0;
+    padding-bottom: 8px;
   }
+  #nav.open{
+    display: block;
+  }
+  #nav > li{
+    border-top:1px solid white;
+  }
+  #mobile-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
