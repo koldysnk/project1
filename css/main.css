@@ -44,7 +44,7 @@ header{
     margin: 0;
 }
 #nav a{
-    padding: 0 8px;
+    padding: 0 16px;
     color:#9DCC5F;
     transition: .4s;
     text-decoration: none;
@@ -107,7 +107,7 @@ footer #social-media-footer ul li {
   padding: 16px;
   transition: 0.4s;
 }
-@media (max-width:600px){
+@media (max-width:650px){
   
   #nav{
     background-color: #335120;
