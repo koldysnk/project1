@@ -1,3 +1,24 @@
+.type-header{
+    text-decoration: none;
+    color: #335120;
+  }
+  .type-header:hover{
+    text-decoration: underline;
+  }
+  .type-header > h2{
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+    border-left: 3px solid #335120;
+    border-right: 3px solid #335120;
+    transition: all 0.4s;
+    display: inline-block;
+    padding: 4px 32px;
+  }
+  .type-header > h2:hover {
+    padding: 4px 48px;
+    background: rgba(157,204,95, 0.2);
+  }
+
 section{
     display: flex;
 }
@@ -15,6 +36,7 @@ section{
   
 .artwork-image > img:hover {
     box-shadow: 0 10px 6px -6px #777;
+    cursor: pointer;
 }
   
 .artwork .artwork-description {
