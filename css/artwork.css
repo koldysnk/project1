@@ -13,6 +13,7 @@
     transition: all 0.4s;
     display: inline-block;
     padding: 4px 32px;
+    margin: 0;
   }
   .type-header > h2:hover {
     padding: 4px 48px;
@@ -21,6 +22,7 @@
 
 section{
     display: flex;
+    margin: 5vh 0;
 }
 .piece{
     display: flex;
@@ -49,6 +51,7 @@ section{
     
     width: 20vw;
     max-height: 60vh;
+    padding-right: 5px;
 }
 .artwork-description > h3{
     margin-top: 0;
