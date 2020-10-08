@@ -1,0 +1,13 @@
+main{
+    width: 100vw;
+}
+section{
+    display: flex;
+    justify-self: center;
+}
+section > img{
+    max-height: 80vh;
+}
+section > div{
+    max-width: 30vw;
+}
