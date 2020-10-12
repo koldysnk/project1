@@ -1,13 +1,47 @@
 main{
     width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
 }
 section{
     display: flex;
     justify-self: center;
+    justify-content: center;
 }
 section > img{
     max-height: 80vh;
+    max-width: 30vw;
 }
 section > div{
     max-width: 30vw;
+}
+section > div > p{
+    padding-right: 5px;
+}
+@media(max-width:1200px){
+    section{
+        flex-direction: column;
+    }
+    
+    section > img{
+        max-width: 60vw;
+        max-height: 80vh;
+        margin: 0 auto;
+    }
+    section > div{
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+}
+@media(max-width:650px){
+    
+    section > img{
+        max-width: 80vw;
+        max-height: 80vh;
+        margin: 0 auto;
+    }
+    section > div{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
 }
