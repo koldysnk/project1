@@ -1,0 +1,52 @@
+main{
+    margin-left: 20vw;
+}
+.type-header > h2{
+    margin-bottom: 5vh;
+}
+
+.intro{
+    margin-bottom: 2.5vh;
+}
+div > h2{
+    margin-top: 0;
+}
+div >p{
+    max-width: 50vw;
+}
+#custom-form{
+    max-width: 50vw;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-family: sans-serif;
+    gap: 10px 5px;
+}
+#custom-form > label{
+    justify-self: end;
+}
+
+#send {
+    grid-column: 2;
+    justify-self: start;
+}
+#message{
+    height: 300px;
+}
+@media(max-width:650px){
+    #custom-form{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    #send{
+        grid-column: 1;
+    }
+    #custom-form > label, #send{
+        justify-self: start;
+        margin-top: 10px;
+    }
+}
+
+
+.hidden{
+    display: none;
+}

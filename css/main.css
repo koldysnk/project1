@@ -25,6 +25,27 @@ header{
     z-index: 100;
     box-shadow: 0 0 20px black;
 }
+.type-header{
+  text-decoration: none;
+  color: #335120;
+}
+.type-header:hover{
+  text-decoration: underline;
+}
+.type-header > h2{
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 3px solid #335120;
+  border-right: 3px solid #335120;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 4px 32px;
+  margin: 0;
+}
+.type-header > h2:hover {
+  padding: 4px 48px;
+  background: rgba(157,204,95, 0.2);
+}
 #logo{
     height: 10vh;
     align-items: center;
@@ -90,7 +111,7 @@ footer #left-footer ul {
 }
 
 footer #right-footer {
-  flex: 2;
+  flex: 1.5;
   padding: 8px;
   text-align: center;
 }

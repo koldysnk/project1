@@ -6,7 +6,6 @@ main{
 section{
     display: flex;
     justify-self: center;
-    justify-content: center;
 }
 section > img{
     max-height: 80vh;
@@ -14,9 +13,19 @@ section > img{
 }
 section > div{
     max-width: 30vw;
+    margin-left: 20vw;
+}
+section > div > h2{
+    margin-top: 0;
 }
 section > div > p{
     padding-right: 5px;
+}
+.type-header{
+    margin-left:20vw;
+}
+.type-header > h2{
+    margin-bottom: 5vh;
 }
 @media(max-width:1200px){
     section{
@@ -43,5 +52,8 @@ section > div > p{
     section > div{
         max-width: 80vw;
         margin: 0 auto;
+    }
+    .type-header{
+        margin-left:10vw;
     }
 }
