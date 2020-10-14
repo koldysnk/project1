@@ -61,19 +61,22 @@ section{
         display: flex;
         flex-direction: column;
         margin-bottom: 64px;
-        width: 80vw;
+        width: 90vw;
     }
     .artwork-description > p{
-        width: 80vw;
+        width: 90vw;
     }
     .artwork-description > h3{
-        width: 80vw;
+        width: 90vw;
     }
     .artwork-image > img{
-        max-width: 80vw;
-        max-height: 50vh;
+        max-width: 90vw;
+        max-height: 70vh;
     }
     section{
         flex-direction: column;
+    }
+    main{
+        margin-left: 2vw;
     }
 }
