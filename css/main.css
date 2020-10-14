@@ -19,7 +19,7 @@ header{
     font-family: 'Roboto Condensed',sans-serif;
     font-size:1.5em;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 0 16px 0 0;
     box-sizing: border-box;
     z-index: 100;
@@ -58,6 +58,7 @@ header{
     padding-left: 10%;
 }
 #nav{
+    justify-self: end;
     display: flex;
     list-style: none;
     justify-content: space-around;

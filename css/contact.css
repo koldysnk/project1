@@ -5,6 +5,10 @@ main{
     margin-bottom: 5vh;
 }
 
+#google-form{
+    min-height: 45vh;
+}
+
 .intro{
     margin-bottom: 2.5vh;
 }

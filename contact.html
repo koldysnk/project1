@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grace Barnes Art</title>
-    <link rel="icon" type="image/png" href="images/temp_logo.PNG">
+    <link rel="icon" type="image/png" href="images/gracebarnesselfportrait.jpeg">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
@@ -18,11 +18,11 @@
 
 <body>
     <header>
-        <div id="logo">
+        <!-- <div id="logo">
             <a href="index.html">
                 <img id="logo-img" src="images/temp_logo.PNG" alt="Grace Barnes Art Logo">
             </a>
-        </div>
+        </div> -->
         <ul id="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="originals.html">Originals</a></li>
@@ -51,7 +51,7 @@
         <div class="intro">
             <h2>Commission Request</h2>
             <p>If you are interested in a commissioned piece, please email 
-                <a href="mailto:gracebarnesrt@gmail.com">Grace Barnes</a> or fill out one of the below forms.
+                <a href="mailto:gracebarnesart@gmail.com">Grace Barnes</a> or fill out one of the below forms.
                 Please include the dimensions of the wanted work, subject matter, color scheme, and medium, such as
                 graphite, acrylic paint, etc. If you would like a recreation of a picture or specific object, please
                 also attach an image of it. If you have a concept in mind but are unsure of exactly how you want it
@@ -64,22 +64,25 @@
 
             </select>
         </div>
-        <div id="custom-form" >
+        <form id="custom-form">
             <label class="form-element" for="name">Name</label>
-            <input class="form-element" type="text" id="name" autocomplete="off">
+            <input class="form-element" type="text" id="name" autocomplete="off" required>
             <label class="form-element" for="email">Email</label>
-            <input class="form-element" type="email" id="email" autocomplete="off">
+            <input class="form-element" type="email" id="email" autocomplete="email" required>
             <label class="form-element" for="message">Message</label>
-            <textarea class="form-element" id="message"></textarea>
+            <textarea class="form-element" id="message" required></textarea>
 
             <button class="form-element" id="send">Send</button>
-        </div>
+        </form>
 
         <div id="google-form" class="hidden">
+            <button id="google-form-button">Open Google Form</button>
+            <!--
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSeP2kiB9xhNf-F3zoBrodg6kZ2ooq7wCWDG3vkXKfn7TDipQw/viewform?embedded=true"
                 width="640" height="1147" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+            -->
+            </div>
 
     </main>
 
