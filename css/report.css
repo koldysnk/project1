@@ -1,0 +1,9 @@
+span{
+    margin: 10px;
+    max-width: 600px;
+    display: inline-block;
+    font-weight: 300;
+}
+li{
+    font-weight: 600;
+}

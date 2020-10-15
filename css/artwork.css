@@ -3,6 +3,8 @@ section{
     display: flex;
     margin: 5vh 0;
 }
+
+/* for each artwork and description and title */
 .piece{
     display: flex;
     margin-right: 64px;
@@ -36,6 +38,8 @@ section{
     width: 20vw;
 }
   
+
+/* for small screen view */
 @media(max-width:1200px){
     .piece{
         margin-bottom: 64px;
@@ -55,6 +59,9 @@ section{
         flex-direction: column;
     }
 }
+
+
+/* for mobile view */
 @media(max-width:650px){
     .piece{
         display: flex;

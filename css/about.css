@@ -27,6 +27,8 @@ section > div > p{
 .type-header > h2{
     margin-bottom: 5vh;
 }
+
+/* for smaller screen */
 @media(max-width:1200px){
     section{
         flex-direction: column;
@@ -42,6 +44,9 @@ section > div > p{
         margin: 0 auto;
     }
 }
+
+
+/* for mobile */
 @media(max-width:650px){
     
     section > img{
