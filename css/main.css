@@ -1,13 +1,13 @@
 body{
-    margin:0;
-    font-family: 'Roboto', sans-serif;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
 }
 main{
-  margin: 32px 64px;
+  margin: 15vh 64px 32px 64px;
 }
 h1{
-    font-family: 'Roboto Slab',serif;
-    text-align: center;
+  font-family: 'Roboto Slab',serif;
+  text-align: center;
 }
 header{
     background-color: #335120;
@@ -186,3 +186,4 @@ footer #social-media-footer ul li {
   footer #right-footer a {
     color: #335120;
   }
+}

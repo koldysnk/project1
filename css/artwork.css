@@ -22,7 +22,6 @@ section{
   
 .artwork .artwork-description {
     display: inline-block;
-    align-content: top;
     max-width: 20vw;
     max-height: 60vh;
 }
