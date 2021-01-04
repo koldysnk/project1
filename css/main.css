@@ -12,8 +12,8 @@ h1{
 
 /* header and non mobile nav */
 header{
-  background-color: #335120;
-  color: #9DCC5F;
+  background-color: black;
+  color: lightpink;
   width: 100%;
   height: 10vh;
   position:fixed;
@@ -29,7 +29,7 @@ header{
 }
 .type-header{
   text-decoration: none;
-  color: #335120;
+  color:black;
 }
 .type-header:hover{
   text-decoration: underline;
@@ -37,8 +37,8 @@ header{
 .type-header > h2{
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
-  border-left: 3px solid #335120;
-  border-right: 3px solid #335120;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
@@ -46,7 +46,7 @@ header{
 }
 .type-header > h2:hover {
   padding: 4px 48px;
-  background: rgba(157,204,95, 0.2);
+  background: rgba(65, 42, 53, 0.2);
 }
 #logo{
   height: 10vh;
@@ -72,7 +72,7 @@ header{
 }
 #nav a{
   padding: 0 16px;
-  color:#9DCC5F;
+  color:lightpink;
   transition: .4s;
   text-decoration: none;
 }
@@ -92,19 +92,23 @@ header{
   display:none;
 }
 
+rect{
+  fill: lightpink;
+}
+
 
 /* footer */
 footer {
-  background:  #335120;
+  background:  black;
   padding: 8px;
-  color: #9DCC5F;
+  color: lightpink;
   display: flex;
   max-width: 100vw;
   box-sizing: border-box;
 }
   
 footer a {
-  color:  #9DCC5F;
+  color:  lightpink;
 }
 
 footer #left-footer {
@@ -151,7 +155,7 @@ footer #social-media-footer ul li {
   
   /* nav bar */
   #nav{
-    background-color: #335120;
+    background-color: black;
     display:none;
     position: absolute;
     top: 100%;
@@ -164,7 +168,7 @@ footer #social-media-footer ul li {
     display: block;
   }
   #nav > li{
-    border-top:1px solid #9DCC5F;
+    border-top:1px solid lightpink;
     padding: 8px 16px;
   }
   #mobile-nav{
@@ -190,13 +194,13 @@ footer #social-media-footer ul li {
 
   footer #right-footer {
     background: white;
-    color: #335120;
+    color: black;
     width: 90vw;
     padding: 0;
     margin: 2.5vw auto;
   }
 
   footer #right-footer a {
-    color: #335120;
+    color: black;
   }
 }
