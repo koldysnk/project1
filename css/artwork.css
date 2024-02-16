@@ -10,6 +10,7 @@ section{
     margin-right: 64px;
     width: 40vw;
 }
+
 .artwork-image > img{
     display: inline-block;
     transition: 0.4s;
